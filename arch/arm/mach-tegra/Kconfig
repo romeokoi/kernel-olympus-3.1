@@ -148,6 +148,12 @@ config MACH_N1
        help
          Support for Samsung N1 platform
 
+config MACH_OLYMPUS
+       bool "Olympus board"
+       select TEGRA_DEBUG_UARTB
+       help
+         Support for Olympus development platform
+
 config MACH_BOSE_ATT
        bool "BOSE board"
        default n
